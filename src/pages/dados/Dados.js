@@ -8,7 +8,7 @@ const products = Array.from({ length:55 }, (_, i) => ({
   id:`d${i + 1}` ,
   nome: `Kit de Dados ${i+1}`,
   valor: `${Math.floor(Math.random() * 81) + 20}`,
-  image: `/dadosimgs/${i + 1}.png`
+  image:require(`../../assets/dadosimgs/${i + 1}.png`)
 }));
 
 export default function Dados(){

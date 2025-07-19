@@ -14,7 +14,7 @@ const products = Array.from({ length: miniaturas.length }, (_, i) => ({
   id:`m${i + 1}` ,
   nome: miniaturas[i],
   valor: `${Math.floor(Math.random() * 81) + 20}`,
-  image: `/miniaturasimgs/${i + 1}.png`
+  image: require(`../../assets/miniaturasimgs/${i + 1}.png`),
 }));
 
 function Miniaturas() {
