@@ -1,38 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    /* font-family: "Tangerine", cursive; */
+    font-family: "PT Serif", serif;
+    text-decoration: none;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    background-image: url('./assets/outros/fundo_total.png');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+    background-image: url('./assets/header/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 22px 10px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 22px 10px rgba(0, 0, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav img {
+    position: relative;
+    top: 130px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnHome {
+    background-image: url('./assets/header/btn_home.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
+    display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.btnHome:hover {
+    background-image: url('./assets/header/btn_home_hover.png');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.btnminiaturas {
+    background-image: url('./assets/header/btn_miniaturas.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+
+.btnminiaturas:hover {
+    background-image: url('./assets/header/btn_miniaturas_hover.png');
+}
+
+.btndados {
+    background-image: url('./assets/header/btn_dados.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+
+.btndados:hover {
+    background-image: url('./assets/header/btn_dados_hover.png');
+}
+
+.btnpersonalizados {
+    background-image: url('./assets/header/btn_personalizado.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+
+.btnpersonalizados:hover {
+    background-image: url('./assets/header/btn_personalizado_hover.png');
+}
+
+
+
+.btn_bau {
+    position: fixed;
+    top: 0;
+    left: 90vw;
+    background-image: url('./assets/header/btn_bau.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.btn_bau:hover {
+    background-image: url('./assets/header/btn_bau_hover.png');
+}
+
+.num_bau {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+    background-color: rgb(110, 3, 3);
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0px 4px;
+    line-height: 1;
+    min-width: 6px;
+    text-align: center;
+}
+
+.titulos {
+
+    font-size: 4rem;
+    color: #DECD91;
+
+}
+
+.txt {
+
+    font-size: 2rem;
+    color: rgb(228, 228, 228);
+}
+
+.botao {
+    border: 1px solid #DECD91;
+    color: #DECD91;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background: none;
+}
+
+.botao:hover {
+    color: rgb(228, 228, 228);
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.footer {
+    padding: 2rem 0 0 2rem;
+    margin-top: 3rem;
+    background-image: url('./assets/header/header-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 3rem;
+
+}
+
+.ul_footer {
+    font-size: 15px;
+    list-style-type: none;
+    text-align: left;
+    color: #DECD91;
+}
+
+.titles_footer {
+    font-size: 20px;
+    font-weight: bold;
+}
+.linkFooter:hover{
+    color: #ed5829;  
+}
+.hr{
+    border-top: 1px solid rgb(148, 148, 147);
 }

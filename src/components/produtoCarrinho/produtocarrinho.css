@@ -1,0 +1,29 @@
+.cardBau{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+.nomeBau{
+    color: rgb(124, 124, 124);
+    font-size: 20px;
+}
+
+.comprarBau{
+    display: flex;
+    color: rgb(124, 124, 124);
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+} 
+
+.valorIten{
+    color:#DECD91;
+    font-size: 30px;
+
+}

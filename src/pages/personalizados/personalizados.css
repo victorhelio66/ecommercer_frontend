@@ -1,0 +1,36 @@
+
+.personalizados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cardpersonalizado{
+    background-color: rgba(124,84,65,0.34);
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+
+}
+.cardpersonalizado p{
+    margin: 2rem 0;
+
+}
+
+.txtpersonalizado{
+    width: 40%;
+    
+}
+.ttpersonalizado{
+    font-size: 30px;
+    color: #DECD91;
+
+}
+.textpersonalizado{
+    font-size: 20px;
+    color: rgb(228, 228, 228);
+}
