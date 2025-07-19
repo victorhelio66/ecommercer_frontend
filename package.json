@@ -1,7 +1,7 @@
 {
   "name": "the_adventurers_forge",
   "version": "0.1.0",
-  "homepage": "https://victorhelio66.github.io/ecommerce_frontend",
+  "homepage": "https://victorhelio66.github.io/ecommercer_frontend",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
